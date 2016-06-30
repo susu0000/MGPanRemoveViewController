@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Nvw-km-wfU">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--根控制器0-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.82745098039999998" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="根控制器0" id="NTm-Ib-IQY">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="628-LZ-TS6">
+                            <connections>
+                                <segue destination="y2G-Lq-vgg" kind="push" id="yW4-Da-vWF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1051" y="459"/>
+        </scene>
+        <!--Vc1-->
+        <scene sceneID="Hya-wt-lid">
+            <objects>
+                <viewController id="y2G-Lq-vgg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yYv-1L-oAd"/>
+                        <viewControllerLayoutGuide type="bottom" id="NNO-x3-zuL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vhn-0l-dlT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.10588235410000001" green="0.68627452850000004" blue="0.93333333730000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Vc1" id="0ed-oe-z0n">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="Mit-7I-VC6">
+                            <connections>
+                                <segue destination="5hr-hj-TyX" kind="push" id="px1-xj-wqD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F50-2s-dsd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1747" y="459"/>
+        </scene>
+        <!--Vc2-->
+        <scene sceneID="j6d-iO-548">
+            <objects>
+                <viewController id="5hr-hj-TyX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5zI-f9-ejE"/>
+                        <viewControllerLayoutGuide type="bottom" id="bnW-1V-y29"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cAv-Zp-LYd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.90588235859999999" green="0.35294118520000001" blue="0.33725491169999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Vc2" id="c1Q-qy-qIC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BeR-8p-qQi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2459" y="459"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="L5a-Wo-W8e">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nvw-km-wfU" customClass="MGNavigationController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lxi-en-pBw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2Yb-LY-b4n"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S8E-VT-LVe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="341" y="449"/>
+        </scene>
+    </scenes>
+</document>
