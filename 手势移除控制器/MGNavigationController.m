@@ -96,10 +96,8 @@
                 [self.images removeLastObject];
             }];
         } else { // 还原
-            
+            self.view.transform = CGAffineTransformIdentity;
         }
-        
-        
     } else {
         // 移动view,以后只能右滑，push或pop
         // 用一个新的值，覆盖原来的值，不会每次累加,一次性
@@ -145,7 +143,7 @@
     [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
     // 获得图形上下文的图片
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    // 压保存- test
+    // 压缩保存- test
 //        [UIImagePNGRepresentation(image) writeToFile:[NSString stringWithFormat:@"/Users/MG/Desktop/%zd.png", self.childViewControllers.count] atomically:YES];
     [self.images addObject:image];
 }
