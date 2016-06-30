@@ -275,9 +275,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "66-手势移除控制器/Info.plist";
+				INFOPLIST_FILE = "手势移除控制器/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mg.-6--------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mg.mgpan;
 				PRODUCT_NAME = "手势移除控制器";
 			};
 			name = Debug;
@@ -286,9 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "66-手势移除控制器/Info.plist";
+				INFOPLIST_FILE = "手势移除控制器/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mg.-6--------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mg.mgpan;
 				PRODUCT_NAME = "手势移除控制器";
 			};
 			name = Release;

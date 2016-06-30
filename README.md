@@ -1,2 +1,3 @@
-# MGPanRemoveViewController手势移除控制器
+# 手势移除控制器
 
+- 添加滑动手势
